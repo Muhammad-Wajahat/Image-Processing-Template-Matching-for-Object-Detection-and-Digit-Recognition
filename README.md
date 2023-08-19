@@ -15,6 +15,13 @@ The second part of the project deals with image recognition. It involves loading
 
 In this section, the template matching algorithms from OpenCV are applied to locate a specific object within an image. The algorithms consider various matching methods, and upon detection, a rectangle is drawn around the found object.
 
+Two images are uploaded in this program one complete image and the other template that is to be matched in the image. The prgram shows the 5 closest matches not just the best one 
+an example of the matched template is given below
+
+**Image**
+
+**Template**
+
 ## Handwritten Digit Recognition
 
 This segment of the project is dedicated to recognizing handwritten digits using template matching and the KNN algorithm. An input image containing a handwritten digit is compared against a dataset of digits. The algorithm then predicts the digit represented by the input image based on the closest matches in the dataset.
@@ -28,13 +35,13 @@ https://www.kaggle.com/competitions/digit-recognizer/data?select=train.csv
 
 1. Clone this repository to your local machine:
 ```
-
+git clone https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition.git
 ```
 
 2. Navigate to the project directory:
 
 ```
-
+cd Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition
 ```
 
 
