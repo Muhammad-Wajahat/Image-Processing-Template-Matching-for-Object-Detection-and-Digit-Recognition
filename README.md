@@ -19,6 +19,7 @@ Two images are uploaded in this program one complete image and the other templat
 an example of the matched template is given below
 
 **Image**
+![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/30499e00-2d8e-4a99-a090-92b7f88b6f93)
 
 **Template**
 
