@@ -8,8 +8,6 @@ The second part of the project deals with image recognition. It involves loading
 - [Object Detection using Template Matching](#object-detection-using-template-matching)
 - [Handwritten Digit Recognition](#handwritten-digit-recognition)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Object Detection using Template Matching
 
@@ -18,18 +16,37 @@ In this section, the template matching algorithms from OpenCV are applied to loc
 Two images are uploaded in this program one complete image and the other template that is to be matched in the image. The prgram shows the 5 closest matches not just the best one 
 an example of the matched template is given below
 
-**Image**
+**Complete Image**
+
 ![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/30499e00-2d8e-4a99-a090-92b7f88b6f93)
 
 **Template**
 
+![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/7614eb36-a481-4a9f-ad76-e9e362714eb8)
+
+**The Matched Image**
+
+![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/570e5e7c-d2b0-49e0-8775-3ef061303507)
+
 ## Handwritten Digit Recognition
 
-This segment of the project is dedicated to recognizing handwritten digits using template matching and the KNN algorithm. An input image containing a handwritten digit is compared against a dataset of digits. The algorithm then predicts the digit represented by the input image based on the closest matches in the dataset.
+This segment of the project is dedicated to recognizing handwritten digits using template matching and the KNN algorithm. An input image containing a handwritten digit is compared against a dataset of digits. The algorithm then predicts the digit represented by the input image based on the closest matches in the dataset, the program shows the top 5 closest matches obtained out of the data set.
 
 The complete dataset can be downloaded from the following link:
 
 https://www.kaggle.com/competitions/digit-recognizer/data?select=train.csv
+
+The above dataset is converted to images and saved locally using the commented-out code in the `template_matching_knn.py` file:
+
+![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/9ec14946-8348-41fb-bbed-3e0992fafbed)
+
+
+**Some Examples are given below:**
+
+![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/dd7f199c-d3ac-4ac6-a3d7-e7893508cb2a)
+
+![image](https://github.com/Muhammad-Wajahat/Image-Processing-Template-Matching-for-Object-Detection-and-Digit-Recognition/assets/55240166/f86aef94-37c9-4c57-ba81-878f760586d1)
+
 
 
 ## Usage
